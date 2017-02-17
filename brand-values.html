@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 
+ ___      ___ ________  ________     
+|\  \    /  /|\   ____\|\   ____\    
+\ \  \  /  / | \  \___|\ \  \___|    
+ \ \  \/  / / \ \  \  __\ \  \       
+  \ \    / /   \ \  \|\  \ \  \____  
+   \ \__/ /     \ \_______\ \_______\
+    \|__|/       \|_______|\|_______|
+                                     
+If you like this site, say hello@verygoodcreative.co
+                                     
+ -->
+  <title>Brand Values</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <link rel="stylesheet" href="assets/css/slider.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo"><strong>Musqueam</strong> Indian Band</a>
+    <nav>
+      <a href="#menu">Menu</a>
+    </nav>
+  </header>
+
+  <!-- Nav -->
+  <nav id="menu">
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="brand-ambition.html">Brand Strategy</a></li>
+      <li><a href="brand-positioning.html">Brand Positioning</a></li>
+      <li><a href="positioning-statement.html">Positioning Statement</a></li>
+      <li><a href="brand-story/brand-story.html">Brand Story</a></li>
+    </ul>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+
+   <section id="banner-header">
+    <div class="inner">
+      <h1 class="intro">Part One:</h1>
+      <a href="brand-ambition.html"><p class="header">
+        Brand Strategy: five perspectives on what the brand stands for
+      </p></a>
+      <a href="brand-positioning.html"><p class="header off">Brand Positioning: five essential facts</p></a>
+      <a href="positioning-statement.html"><p class="header off">Positioning Statement: a narrative summary of the previous parts</p></a>
+
+    </div>
+  </section>
+      <section id="main">
+        <div class="inner">
+
+          <!-- 
+          <header>
+            
+
+            <h1>Lorem ipsum dolor sit amet</h1> 
+            <p class="info">3 days ago by <a href="#">Jane Doe</a></p>
+          </header>
+
+          -->
+
+
+  <div class="main-container">
+
+    <div class="perspective">
+      <h1>Brand Values</h1>
+      <h3>Characteristics that are key to the institution:</h3>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)">
+        <p class="dot-text">MIB</p>
+      </span>
+      <span class="dot" onclick="currentSlide(2)">
+        <p class="dot-text">MCC</p>
+      </span>
+      <span class="dot" onclick="currentSlide(3)">
+        <p class="dot-text">Block F</p>
+      </span>
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/slider-space.png" style="width:100%">
+        <div class="text">Successful, respectful, and humble</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/slider-space.png" style="width:100%">
+        <div class="text">Driven and intelligent, but caring</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/slider-space.png" style="width:100%">
+        <div class="text">Unique, inclusive, and progressive</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+        <div class="center">
+          <ul class="actions">
+            <li><a href="brand-essence.html#main" class="button alt scrolly big">Next</a></li>
+          </ul>
+        </div>
+
+
+  </div>
+
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="copyright"><a href="http://www.musqueam.bc.ca/">
+  </a>
+  <a href="https://davidallisoninc.com" target="_blank"><img src="images/dai-logo@2x.png" alt=""></a>
+  <br>
+  <a href="https://verygoodcreative.co"></a>
+</div>
+</footer>
+
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+      </script>
+
+
+
+
+        <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+    </body>
+    </html>
+

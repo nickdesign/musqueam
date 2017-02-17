@@ -1,0 +1,950 @@
+	h1.intro {
+		font-weight: 700;
+		line-height: 1.25;
+		margin: 0 0 0;
+	}
+
+	h1.intro-last {
+		font-weight: 700;
+		line-height: 1.25;
+		margin: 0 0 1em 0;
+	}
+
+	h3.intro-last {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 100;
+		font-size: 1.15em;
+		color: #DEDEDE;
+		line-height: 1.25;
+		margin: 0 0 0 0;
+		padding: 0px 15px 30px 15px;
+	}
+	
+	#banner h1.intro {
+		font-size: 3em;
+		line-height: 1em;
+		margin: 0 0 10px 0;
+		padding: 15px;
+		color: #DEDEDE;
+		text-shadow: 2px 2px 2px #555;
+	}
+
+	.space {
+		padding: 2em 0;
+	}
+
+	p.header {
+		font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+		color: #E7E5DF;
+		letter-spacing: .02em;
+		margin: 0;
+	}
+
+	p.header.off {
+		color: rgba(231, 229, 223, .15)
+	}
+
+	p {
+		margin: 0 0 1em 0;
+	}
+
+	p.bullets {
+     list-style: disc outside none;
+     display: list-item;
+     margin: 0 0 1em 0;
+	}
+
+
+	#main .inner-center {
+	    max-width: 40em;
+    	margin: 0 auto;
+	}
+
+	#footer {
+    padding: 4em 0 2em 0;
+    background: #1c1c1c;
+    text-align: center;
+    bottom: 0;
+}
+
+#main {
+    padding: 4em 0 0 0;
+}
+
+
+@media only screen and (max-width: 736px) {
+		h1 {
+			font-size: 2em;
+		}
+
+		h1.intro {
+		font-weight: 700;
+		line-height: 1.25;
+		margin: 0 0 0;
+	}
+
+		h1.intro-last {
+		font-weight: 700;
+		font-size: 3em;
+		line-height: 1.25;
+		margin: 0 0 1em 0;
+	}
+
+		#banner h1.intro {
+		font-size: 3em;
+		line-height: 1em;
+		margin: 0 0 25px 0;
+		padding: 0;
+	}
+
+	#banner {
+		padding: 10em 1.5em 4em 1.5em;
+	}
+
+	#main .inner-center {
+	    max-width: 40em;
+    	margin: 15px;
+	}
+
+	p.bullets {
+     list-style: disc inside none;
+     display: list-item;
+     margin: 0 0 1em 0;
+	}
+
+	h3.intro-last {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 100;
+		font-size: 1.15em;
+		color: #DEDEDE;
+		line-height: 1.25;
+		margin: 0 0 0 0;
+		padding: 0px 30px 30px 30px;
+	}
+}
+
+
+
+/* Banner */
+
+	#banner-header {
+		background-image: url(../../images/musqueam-background.png);
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.75);
+		text-align: left;
+		cursor: default;
+		padding: 5em 5em 5em 5em;
+		height: cover;
+		top: 0;
+	}
+
+		#banner-header input, #banner-header select, #banner-header textarea {
+			color: #fff;
+		}
+
+		#banner-header a {
+			color: #fff;
+		}
+
+		#banner-header strong, #banner-header b {
+			color: #fff;
+		}
+
+		#banner-header h1, #banner-header h2, #banner-header h3, #banner-header h4, #banner-header h5, #banner-header h6 {
+			color: #C3C3C3;
+		}
+
+		#banner-header blockquote {
+			border-left-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header code {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header hr {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header .box {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header input[type="submit"],
+		#banner-header input[type="reset"],
+		#banner-header input[type="button"],
+		#banner-header button,
+		#banner-header .button {
+			background-color: #1abc9c;
+			color: #fff !important;
+		}
+
+			#banner-header input[type="submit"]:hover,
+			#banner-header input[type="reset"]:hover,
+			#banner-header input[type="button"]:hover,
+			#banner-header button:hover,
+			#banner-header .button:hover {
+				background-color: #1dd2af;
+			}
+
+			#banner-header input[type="submit"]:active,
+			#banner-header input[type="reset"]:active,
+			#banner-header input[type="button"]:active,
+			#banner-header button:active,
+			#banner-header .button:active {
+				background-color: #17a689;
+			}
+
+			#banner-header input[type="submit"].alt,
+			#banner-header input[type="reset"].alt,
+			#banner-header input[type="button"].alt,
+			#banner-header button.alt,
+			#banner-header .button.alt {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+				color: #fff !important;
+				font-family: 'Montserrat', sans-serif;
+			}
+
+				#banner-header input[type="submit"].alt:hover,
+				#banner-header input[type="reset"].alt:hover,
+				#banner-header input[type="button"].alt:hover,
+				#banner-header button.alt:hover,
+				#banner-header .button.alt:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				#banner-header input[type="submit"].alt:active,
+				#banner-header input[type="reset"].alt:active,
+				#banner-header input[type="button"].alt:active,
+				#banner-header button.alt:active,
+				#banner-header .button.alt:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				#banner-header input[type="submit"].alt.icon:before,
+				#banner-header input[type="reset"].alt.icon:before,
+				#banner-header input[type="button"].alt.icon:before,
+				#banner-header button.alt.icon:before,
+				#banner-header .button.alt.icon:before {
+					color: rgba(255, 255, 255, 0.5);
+				}
+
+			#banner-header input[type="submit"].special,
+			#banner-header input[type="reset"].special,
+			#banner-header input[type="button"].special,
+			#banner-header button.special,
+			#banner-header .button.special {
+				background-color: #fff;
+				color: #3498db !important;
+			}
+
+		#banner-header label {
+			color: #fff;
+		}
+
+		#banner-header input[type="text"],
+		#banner-header input[type="password"],
+		#banner-header input[type="email"],
+		#banner-header select,
+		#banner-header textarea {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header input[type="text"]:focus,
+			#banner-header input[type="password"]:focus,
+			#banner-header input[type="email"]:focus,
+			#banner-header select:focus,
+			#banner-header textarea:focus {
+				border-color: #fff;
+				box-shadow: 0 0 0 1px #fff;
+			}
+
+		#banner-header .select-wrapper:before {
+			color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header input[type="checkbox"] + label,
+		#banner-header input[type="radio"] + label {
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			#banner-header input[type="checkbox"] + label:before,
+			#banner-header input[type="radio"] + label:before {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+		#banner-header input[type="checkbox"]:checked + label:before,
+		#banner-header input[type="radio"]:checked + label:before {
+			background-color: #fff;
+			border-color: #fff;
+			color: #3498db;
+		}
+
+		#banner-header input[type="checkbox"]:focus + label:before,
+		#banner-header input[type="radio"]:focus + label:before {
+			border-color: #fff;
+			box-shadow: 0 0 0 1px #fff;
+		}
+
+		#banner-header ::-webkit-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header :-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header ::-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header :-ms-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header .formerize-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header ul.alt li {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header header p {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#banner-header table tbody tr {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		#banner-header table th {
+			color: #fff;
+		}
+
+		#banner-header table thead {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header table tfoot {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header table.alt tbody tr td {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header h1 {
+			font-size: 3em;
+			line-height: 1.45;
+			margin: 0 0 0 0;
+			padding: 0 ;
+		}
+
+		#banner-header > .inner {
+			opacity: 1;
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			width: 75%;
+		}
+
+			#banner-header > .inner > :last-child {
+				margin-bottom: 0;
+			}
+
+		body.is-loading #banner-header > .inner {
+			opacity: 0;
+			-moz-transform: translateY(1em);
+			-webkit-transform: translateY(1em);
+			-ms-transform: translateY(1em);
+			transform: translateY(1em);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner-header h1 {
+				font-size: 2.75em;
+				text-align: left;
+			}
+
+				#banner-header h1 br {
+					display: none;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner-header {
+				padding: 5em 1.5em 4em 1.5em;
+			}
+
+				#banner-header h1 {
+					font-size: 2em;
+				}
+
+		}
+
+
+
+/*  Header Mountains  */
+
+	#banner-header-mountain {
+		background-image: url(../../images/musqueam-background-2.jpg);
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.75);
+		text-align: left;
+		cursor: default;
+		padding: 5em 5em 5em 5em;
+		height: cover;
+		top: 0;
+	}
+
+		#banner-header-mountain input, #banner-header-mountain select, #banner-header-mountain textarea {
+			color: #fff;
+		}
+
+		#banner-header-mountain a {
+			color: #fff;
+		}
+
+		#banner-header-mountain strong, #banner-header-mountain b {
+			color: #fff;
+		}
+
+		#banner-header-mountain h1, #banner-header-mountain h2, #banner-header-mountain h3, #banner-header-mountain h4, #banner-header-mountain h5, #banner-header-mountain h6 {
+			color: #C3C3C3;
+		}
+
+		#banner-header-mountain blockquote {
+			border-left-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain code {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain hr {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain .box {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain input[type="submit"],
+		#banner-header-mountain input[type="reset"],
+		#banner-header-mountain input[type="button"],
+		#banner-header-mountain button,
+		#banner-header-mountain .button {
+			background-color: #1abc9c;
+			color: #fff !important;
+		}
+
+			#banner-header-mountain input[type="submit"]:hover,
+			#banner-header-mountain input[type="reset"]:hover,
+			#banner-header-mountain input[type="button"]:hover,
+			#banner-header-mountain button:hover,
+			#banner-header-mountain .button:hover {
+				background-color: #1dd2af;
+			}
+
+			#banner-header-mountain input[type="submit"]:active,
+			#banner-header-mountain input[type="reset"]:active,
+			#banner-header-mountain input[type="button"]:active,
+			#banner-header-mountain button:active,
+			#banner-header-mountain .button:active {
+				background-color: #17a689;
+			}
+
+			#banner-header-mountain input[type="submit"].alt,
+			#banner-header-mountain input[type="reset"].alt,
+			#banner-header-mountain input[type="button"].alt,
+			#banner-header-mountain button.alt,
+			#banner-header-mountain .button.alt {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+				color: #fff !important;
+				font-family: 'Montserrat', sans-serif;
+			}
+
+				#banner-header-mountain input[type="submit"].alt:hover,
+				#banner-header-mountain input[type="reset"].alt:hover,
+				#banner-header-mountain input[type="button"].alt:hover,
+				#banner-header-mountain button.alt:hover,
+				#banner-header-mountain .button.alt:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				#banner-header-mountain input[type="submit"].alt:active,
+				#banner-header-mountain input[type="reset"].alt:active,
+				#banner-header-mountain input[type="button"].alt:active,
+				#banner-header-mountain button.alt:active,
+				#banner-header-mountain .button.alt:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				#banner-header-mountain input[type="submit"].alt.icon:before,
+				#banner-header-mountain input[type="reset"].alt.icon:before,
+				#banner-header-mountain input[type="button"].alt.icon:before,
+				#banner-header-mountain button.alt.icon:before,
+				#banner-header-mountain .button.alt.icon:before {
+					color: rgba(255, 255, 255, 0.5);
+				}
+
+			#banner-header-mountain input[type="submit"].special,
+			#banner-header-mountain input[type="reset"].special,
+			#banner-header-mountain input[type="button"].special,
+			#banner-header-mountain button.special,
+			#banner-header-mountain .button.special {
+				background-color: #fff;
+				color: #3498db !important;
+			}
+
+		#banner-header-mountain label {
+			color: #fff;
+		}
+
+		#banner-header-mountain input[type="text"],
+		#banner-header-mountain input[type="password"],
+		#banner-header-mountain input[type="email"],
+		#banner-header-mountain select,
+		#banner-header-mountain textarea {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header-mountain input[type="text"]:focus,
+			#banner-header-mountain input[type="password"]:focus,
+			#banner-header-mountain input[type="email"]:focus,
+			#banner-header-mountain select:focus,
+			#banner-header-mountain textarea:focus {
+				border-color: #fff;
+				box-shadow: 0 0 0 1px #fff;
+			}
+
+		#banner-header-mountain .select-wrapper:before {
+			color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain input[type="checkbox"] + label,
+		#banner-header-mountain input[type="radio"] + label {
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			#banner-header-mountain input[type="checkbox"] + label:before,
+			#banner-header-mountain input[type="radio"] + label:before {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+		#banner-header-mountain input[type="checkbox"]:checked + label:before,
+		#banner-header-mountain input[type="radio"]:checked + label:before {
+			background-color: #fff;
+			border-color: #fff;
+			color: #3498db;
+		}
+
+		#banner-header-mountain input[type="checkbox"]:focus + label:before,
+		#banner-header-mountain input[type="radio"]:focus + label:before {
+			border-color: #fff;
+			box-shadow: 0 0 0 1px #fff;
+		}
+
+		#banner-header-mountain ::-webkit-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-mountain :-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-mountain ::-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-mountain :-ms-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-mountain .formerize-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-mountain ul.alt li {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain header p {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#banner-header-mountain table tbody tr {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header-mountain table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		#banner-header-mountain table th {
+			color: #fff;
+		}
+
+		#banner-header-mountain table thead {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain table tfoot {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain table.alt tbody tr td {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-mountain h1 {
+			font-size: 3em;
+			line-height: 1.45;
+			margin: 0 0 0 0;
+			padding: 0 ;
+		}
+
+		#banner-header-mountain > .inner {
+			opacity: 1;
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			width: 75%;
+		}
+
+			#banner-header-mountain > .inner > :last-child {
+				margin-bottom: 0;
+			}
+
+		body.is-loading #banner-header-mountain > .inner {
+			opacity: 0;
+			-moz-transform: translateY(1em);
+			-webkit-transform: translateY(1em);
+			-ms-transform: translateY(1em);
+			transform: translateY(1em);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner-header-mountain h1 {
+				font-size: 2.75em;
+				text-align: left;
+			}
+
+				#banner-header-mountain h1 br {
+					display: none;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner-header-mountain {
+				padding: 5em 1.5em 4em 1.5em;
+			}
+
+				#banner-header-mountain h1 {
+					font-size: 2em;
+				}
+
+		}
+
+/*  Header Canoe  */
+
+	#banner-header-canoe {
+		background-image: url(../../images/musqueam-background-3.jpg);
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.75);
+		text-align: left;
+		cursor: default;
+		padding: 5em 5em 5em 5em;
+		height: cover;
+		top: 0;
+	}
+
+		#banner-header-canoe input, #banner-header-canoe select, #banner-header-canoe textarea {
+			color: #fff;
+		}
+
+		#banner-header-canoe a {
+			color: #fff;
+		}
+
+		#banner-header-canoe strong, #banner-header-canoe b {
+			color: #fff;
+		}
+
+		#banner-header-canoe h1, #banner-header-canoe h2, #banner-header-canoe h3, #banner-header-canoe h4, #banner-header-canoe h5, #banner-header-canoe h6 {
+			color: #C3C3C3;
+		}
+
+		#banner-header-canoe blockquote {
+			border-left-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe code {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe hr {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe .box {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe input[type="submit"],
+		#banner-header-canoe input[type="reset"],
+		#banner-header-canoe input[type="button"],
+		#banner-header-canoe button,
+		#banner-header-canoe .button {
+			background-color: #1abc9c;
+			color: #fff !important;
+		}
+
+			#banner-header-canoe input[type="submit"]:hover,
+			#banner-header-canoe input[type="reset"]:hover,
+			#banner-header-canoe input[type="button"]:hover,
+			#banner-header-canoe button:hover,
+			#banner-header-canoe .button:hover {
+				background-color: #1dd2af;
+			}
+
+			#banner-header-canoe input[type="submit"]:active,
+			#banner-header-canoe input[type="reset"]:active,
+			#banner-header-canoe input[type="button"]:active,
+			#banner-header-canoe button:active,
+			#banner-header-canoe .button:active {
+				background-color: #17a689;
+			}
+
+			#banner-header-canoe input[type="submit"].alt,
+			#banner-header-canoe input[type="reset"].alt,
+			#banner-header-canoe input[type="button"].alt,
+			#banner-header-canoe button.alt,
+			#banner-header-canoe .button.alt {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+				color: #fff !important;
+				font-family: 'Montserrat', sans-serif;
+			}
+
+				#banner-header-canoe input[type="submit"].alt:hover,
+				#banner-header-canoe input[type="reset"].alt:hover,
+				#banner-header-canoe input[type="button"].alt:hover,
+				#banner-header-canoe button.alt:hover,
+				#banner-header-canoe .button.alt:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				#banner-header-canoe input[type="submit"].alt:active,
+				#banner-header-canoe input[type="reset"].alt:active,
+				#banner-header-canoe input[type="button"].alt:active,
+				#banner-header-canoe button.alt:active,
+				#banner-header-canoe .button.alt:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				#banner-header-canoe input[type="submit"].alt.icon:before,
+				#banner-header-canoe input[type="reset"].alt.icon:before,
+				#banner-header-canoe input[type="button"].alt.icon:before,
+				#banner-header-canoe button.alt.icon:before,
+				#banner-header-canoe .button.alt.icon:before {
+					color: rgba(255, 255, 255, 0.5);
+				}
+
+			#banner-header-canoe input[type="submit"].special,
+			#banner-header-canoe input[type="reset"].special,
+			#banner-header-canoe input[type="button"].special,
+			#banner-header-canoe button.special,
+			#banner-header-canoe .button.special {
+				background-color: #fff;
+				color: #3498db !important;
+			}
+
+		#banner-header-canoe label {
+			color: #fff;
+		}
+
+		#banner-header-canoe input[type="text"],
+		#banner-header-canoe input[type="password"],
+		#banner-header-canoe input[type="email"],
+		#banner-header-canoe select,
+		#banner-header-canoe textarea {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header-canoe input[type="text"]:focus,
+			#banner-header-canoe input[type="password"]:focus,
+			#banner-header-canoe input[type="email"]:focus,
+			#banner-header-canoe select:focus,
+			#banner-header-canoe textarea:focus {
+				border-color: #fff;
+				box-shadow: 0 0 0 1px #fff;
+			}
+
+		#banner-header-canoe .select-wrapper:before {
+			color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe input[type="checkbox"] + label,
+		#banner-header-canoe input[type="radio"] + label {
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			#banner-header-canoe input[type="checkbox"] + label:before,
+			#banner-header-canoe input[type="radio"] + label:before {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+		#banner-header-canoe input[type="checkbox"]:checked + label:before,
+		#banner-header-canoe input[type="radio"]:checked + label:before {
+			background-color: #fff;
+			border-color: #fff;
+			color: #3498db;
+		}
+
+		#banner-header-canoe input[type="checkbox"]:focus + label:before,
+		#banner-header-canoe input[type="radio"]:focus + label:before {
+			border-color: #fff;
+			box-shadow: 0 0 0 1px #fff;
+		}
+
+		#banner-header-canoe ::-webkit-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-canoe :-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-canoe ::-moz-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-canoe :-ms-input-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-canoe .formerize-placeholder {
+			color: rgba(255, 255, 255, 0.5) !important;
+		}
+
+		#banner-header-canoe ul.alt li {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe header p {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#banner-header-canoe table tbody tr {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#banner-header-canoe table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		#banner-header-canoe table th {
+			color: #fff;
+		}
+
+		#banner-header-canoe table thead {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe table tfoot {
+			border-top-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe table.alt tbody tr td {
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#banner-header-canoe h1 {
+			font-size: 3em;
+			line-height: 1.45;
+			margin: 0 0 0 0;
+			padding: 0 ;
+		}
+
+		#banner-header-canoe > .inner {
+			opacity: 1;
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			width: 75%;
+		}
+
+			#banner-header-canoe > .inner > :last-child {
+				margin-bottom: 0;
+			}
+
+		body.is-loading #banner-header-canoe > .inner {
+			opacity: 0;
+			-moz-transform: translateY(1em);
+			-webkit-transform: translateY(1em);
+			-ms-transform: translateY(1em);
+			transform: translateY(1em);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner-header-canoe h1 {
+				font-size: 2.75em;
+				text-align: left;
+			}
+
+				#banner-header-canoe h1 br {
+					display: none;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner-header-canoe {
+				padding: 5em 1.5em 4em 1.5em;
+			}
+
+				#banner-header-canoe h1 {
+					font-size: 2em;
+				}
+
+		}
